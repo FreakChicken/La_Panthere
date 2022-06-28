@@ -106,6 +106,15 @@ a:hover {
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
 }
+#bloc-3-what-i-do h2{
+    color: #000000!important;
+}
+#bloc-3-what-i-do a{
+    color: #000000!important;
+}
+#bloc-3-what-i-do p{
+    font-size: 17px;
+}
 
 .d-bloc .icon-round,
 .d-bloc .icon-square,
@@ -653,7 +662,9 @@ a {
     font-weight: 400;
     color: #575757!important;
 }
-
+label{
+    font-size: 18px;
+}
 .container {
     max-width: 1000px;
 }
@@ -677,7 +688,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 17px;
 }
 
 .tight-width-whitespace {
@@ -688,6 +699,9 @@ p {
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
+}
+.col-sm-12 p {
+    color: black!important;
 }
 
 .cta-hero {
@@ -775,16 +789,19 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
+}
+.title-2{
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #1F1F1F;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #383838!important;
     color: #FFFFFF!important;
 }
 
@@ -822,7 +839,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
